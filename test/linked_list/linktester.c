@@ -24,7 +24,6 @@ int main(void) {
 	new_node(new_data('!'))))))))))))));
 	printf("%s\n", as_string(hList));
 	free_list(hList);
-	int i;
 	printf("%s\n", as_string(hList));
 	return 0;
 }
