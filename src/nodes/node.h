@@ -5,4 +5,5 @@ struct node;
 typedef struct data* Data;
 typedef struct node* Node;
 struct node { Data d; Node* m; };
+void free_data(Data d);
 #endif
