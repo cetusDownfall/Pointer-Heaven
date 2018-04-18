@@ -1,9 +1,7 @@
+#ifndef NDEFS_H
+#include "node_defs.h"
+#endif
 #ifndef NODE_H
 #define NODE_H
-struct data;
-struct node;
-typedef struct data* Data;
-typedef struct node* Node;
-struct node { Data d; Node* m; };
-void free_data(Data d);
+Node new_node();
 #endif
